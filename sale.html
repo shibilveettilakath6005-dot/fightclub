@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fight Club - Sale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcGmpCVxvUMElDbaxM7UOo9-1bBJFZIPzqA&s") no-repeat center center/cover;
+        height: 100vh;
+        color: #fff;
+        backdrop-filter: blur(4px);
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 10, 10, 0.6);
+        backdrop-filter: blur(6px);
+        z-index: -1;
+    }
+
+    header {
+        width: 100%;
+        padding: 25px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.45);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    header h1 {
+        font-size: 32px;
+        color: #ff2a6d;
+        letter-spacing: 2px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin-left: 25px;
+        font-size: 18px;
+        color: #eee;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: #ff2a6d;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 140px auto 50px;
+        background: rgba(0, 0, 0, 0.55);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(255, 0, 100, 0.35);
+        backdrop-filter: blur(8px);
+        animation: fadeIn 1.2s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 25px;
+        color: #ff2a6d;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-shadow: 0 0 8px #ff2a6d;
+    }
+
+    .sale-card {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        transition: 0.3s;
+        border-left: 5px solid #ff2a6d;
+    }
+
+    .sale-card:hover {
+        transform: scale(1.03);
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .sale-card h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        color: #ff7aa2;
+        font-weight: 600;
+    }
+
+    .sale-card p {
+        font-size: 16px;
+        color: #ddd;
+        line-height: 1.6;
+    }
+
+    .price {
+        margin-top: 10px;
+        font-size: 20px;
+        color: #ff2a6d;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        color: #bbb;
+        padding-bottom: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<header>
+    <h1>Fight Club</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="job.html">Jobs</a>
+        <a href="sale.html" style="color:#ff2a6d;">Sale</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Underground Market</h2>
+
+    <div class="sale-card">
+        <h3>Handmade Soap Bars</h3>
+        <p>Freshly created using premium materials. Exclusively produced in Tyler Durden’s workshop. Limited stock.</p>
+        <div class="price">$25</div>
+    </div>
+
+    <div class="sale-card">
+        <h3>Project Mayhem Starter Kit</h3>
+        <p>A curated collection of essential gear. Includes gloves, black hoodie, and encrypted manual.</p>
+        <div class="price">$99</div>
+    </div>
+
+    <div class="sale-card">
+        <h3>Fight Club Membership Token</h3>
+        <p>Special encrypted access key for exclusive underground events. Identity verification required.</p>
+        <div class="price">$45</div>
+    </div>
+
+    <div class="sale-card">
+        <h3>Night Ops Tactical Bag</h3>
+        <p>Durable, lightweight, designed for stealth operations. Fully equipped with internal compartments.</p>
+        <div class="price">$70</div>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Fight Club — Underground Division
+</footer>
+
+</body>
+</html>
