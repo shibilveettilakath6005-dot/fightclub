@@ -1,0 +1,29 @@
+[33mcommit 59fdff4774c2958bbe165b5106a05b54de46c9e6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Shibil <shibil@example.com>
+Date:   Fri Nov 21 11:00:09 2025 +0530
+
+    SECRET FLAG COMMIT
+
+[33mcommit 84bc0d4ee6ee9ebd82c999a3ff87414071fe3cf5[m[33m ([m[1;31morigin/fix-tmp[m[33m, [m[1;32mfix-tmp[m[33m)[m
+Author: Shibil <shibil@example.com>
+Date:   Fri Nov 21 10:37:09 2025 +0530
+
+    Temporary commit on fix-tmp
+
+[33mcommit ed7613518864a1cdf97ef2df89ebcc18cb10f175[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Shibil <shibil@example.com>
+Date:   Fri Nov 21 10:06:55 2025 +0530
+
+    Noise commit 2
+
+[33mcommit 4b0fd513aaf9b6b19b3f9895bd62f375759bd720[m
+Author: Shibil <shibil@example.com>
+Date:   Fri Nov 21 10:06:55 2025 +0530
+
+    Noise commit 1
+
+[33mcommit 2dd2b34f4b9609da54beaabcf1301a6517480fb3[m
+Author: Shibil <shibil@example.com>
+Date:   Fri Nov 21 10:04:04 2025 +0530
+
+    Initial commit
